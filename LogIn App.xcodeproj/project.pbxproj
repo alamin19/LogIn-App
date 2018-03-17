@@ -14,6 +14,7 @@
 		27CABA5B205B8080009EA3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CABA5A205B8080009EA3F8 /* Assets.xcassets */; };
 		27CABA5E205B8080009EA3F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CABA5C205B8080009EA3F8 /* LaunchScreen.storyboard */; };
 		27CABA66205B8EBD009EA3F8 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CABA65205B8EBD009EA3F8 /* SignUpVC.swift */; };
+		27CABA68205D57F8009EA3F8 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CABA67205D57F8009EA3F8 /* ForgetPasswordVC.swift */; };
 		7289586BDFA4D29D1599C15C /* Pods_LogIn_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF98AFE4A07C98093F912E5E /* Pods_LogIn_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		27CABA5D205B8080009EA3F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27CABA5F205B8080009EA3F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27CABA65205B8EBD009EA3F8 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		27CABA67205D57F8009EA3F8 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
 		86BD8B7441DBC310742C74D0 /* Pods-LogIn App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogIn App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LogIn App/Pods-LogIn App.debug.xcconfig"; sourceTree = "<group>"; };
 		B739306783BC1C1250386FAE /* Pods-LogIn App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogIn App.release.xcconfig"; path = "Pods/Target Support Files/Pods-LogIn App/Pods-LogIn App.release.xcconfig"; sourceTree = "<group>"; };
 		BF98AFE4A07C98093F912E5E /* Pods_LogIn_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogIn_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 				27CABA50205B8080009EA3F8 /* AppDelegate.swift */,
 				27CABA52205B8080009EA3F8 /* ViewController.swift */,
 				27CABA65205B8EBD009EA3F8 /* SignUpVC.swift */,
+				27CABA67205D57F8009EA3F8 /* ForgetPasswordVC.swift */,
 				27CABA54205B8080009EA3F8 /* Main.storyboard */,
 				27CABA5A205B8080009EA3F8 /* Assets.xcassets */,
 				27CABA5C205B8080009EA3F8 /* LaunchScreen.storyboard */,
@@ -226,6 +229,7 @@
 				27CABA66205B8EBD009EA3F8 /* SignUpVC.swift in Sources */,
 				27CABA59205B8080009EA3F8 /* LogIn_App.xcdatamodeld in Sources */,
 				27CABA53205B8080009EA3F8 /* ViewController.swift in Sources */,
+				27CABA68205D57F8009EA3F8 /* ForgetPasswordVC.swift in Sources */,
 				27CABA51205B8080009EA3F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

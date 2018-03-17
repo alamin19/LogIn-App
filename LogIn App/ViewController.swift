@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK:- ViewController Life Cycle -
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,6 +22,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // MARK:- Action Buttons -
     
     @IBAction func btnSignUpClicked(_ sender: UIButton) {
         
@@ -28,6 +31,12 @@ class ViewController: UIViewController {
     
     @IBAction func btnLoginClicked(_ sender: UIButton) {
     }
+    
+    @IBAction func btnForgotPasswordClicked(_ sender: UIButton) {
+    }
+    
+    
+    // MARK:- Navigation -
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
